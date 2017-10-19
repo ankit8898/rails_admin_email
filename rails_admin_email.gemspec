@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.description = %q{ RailsAdminEmail is an extention to the popular Ruby on Rails admin interface, Rails Admin.
   					  This gem allows you to include an email action on any model instance that meets certain criteria.
   					  The email action will allow the Admin user to send emails through the Rails Admin interface to an
-  					  email address specified on the model instance. 	
+  					  email address specified on the model instance.
   				 }
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 3.2.6"
+  s.add_dependency "rails", ">= 3.2.6"
 end
